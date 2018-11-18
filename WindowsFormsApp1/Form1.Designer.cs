@@ -40,7 +40,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 325);
+            this.button1.Location = new System.Drawing.Point(107, 323);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 55);
             this.button1.TabIndex = 0;
@@ -61,11 +61,12 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(339, 75);
+            this.pictureBox2.Location = new System.Drawing.Point(108, 75);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(225, 208);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // imageList1
